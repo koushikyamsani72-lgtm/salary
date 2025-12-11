@@ -1,1 +1,1 @@
-# salary
+Employee salary prediction project.
