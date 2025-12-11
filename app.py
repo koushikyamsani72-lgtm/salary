@@ -18,4 +18,4 @@ def predict():
     pred=model.predict([data])[0]
     return render_template("result.html", prediction=round(pred,2))
 
-app.run(debug=True)
+app.run(debug=True,host='0.0.0.0')
